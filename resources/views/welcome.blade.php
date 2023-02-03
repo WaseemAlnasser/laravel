@@ -170,14 +170,11 @@
 
                 <!--Menu Media Block Start -->
                 <div class="col-12 col-xl-4 menu__media padding-mobile" style="padding-top: 50px">
-                    <div class="media__content">
                         <div class="menu__image menu-image-1">
                             <img src="{{asset('theme/img/web2.png')}}" alt="menu image">
                         </div>
-                    </div>
                 </div>
                 <!--Menu Media Block End -->
-
             </div>
         </div>
     </div>

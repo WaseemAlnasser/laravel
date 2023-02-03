@@ -170,6 +170,7 @@ img {
   display: block;
   width: 100%;
   height: auto;
+pointer-events: none;
 }
 
 .overflow-hidden {
@@ -554,16 +555,16 @@ img {
   transition: all 0.3s ease-in-out;
 }
 .menu.animate-in .menu__image {
-  -webkit-transform: translateX(0);
-     -moz-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: -webkit-transform 0.6s 0s;
-  transition: -webkit-transform 0.6s 0s;
-  -o-transition: transform 0.6s 0s;
-  -moz-transition: transform 0.6s 0s, -moz-transform 0.6s 0s;
-  transition: transform 0.6s 0s;
-  transition: transform 0.6s 0s, -webkit-transform 0.6s 0s, -moz-transform 0.6s 0s;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: -webkit-transform 0s 0s;
+    transition: -webkit-transform 0s 0s;
+    -o-transition: transform 0s 0s;
+    -moz-transition: transform 0s 0s, -moz-transform 0s 0s;
+    transition: transform 0s 0s;
+    transition: transform 0s 0s, -webkit-transform 0s 0s, -moz-transform 0s 0s;
 }
 .menu.animate-in .navigation li a {
   -webkit-transform: translateY(0);
@@ -645,23 +646,18 @@ img {
   transition: opacity 0.6s, transform 0.6s, -webkit-transform 0.6s, -moz-transform 0.6s;
 }
 .menu.animate-out .menu__image {
-  -webkit-transform: translateX(100%);
-     -moz-transform: translateX(100%);
-      -ms-transform: translateX(100%);
-          transform: translateX(100%);
-  -webkit-transition: -webkit-transform 0.6s 0.6s;
-  transition: -webkit-transform 0.6s 0.6s;
-  -o-transition: transform 0.6s 0.6s;
-  -moz-transition: transform 0.6s 0.6s, -moz-transform 0.6s 0.6s;
-  transition: transform 0.6s 0.6s;
-  transition: transform 0.6s 0.6s, -webkit-transform 0.6s 0.6s, -moz-transform 0.6s 0.6s;
+  -webkit-transform: translateX(0);
+     -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+
 }
 @media only screen and (min-width: 1200px) {
   .menu.animate-out {
-    -webkit-transform: translateX(66.66666667%);
-       -moz-transform: translateX(66.66666667%);
-        -ms-transform: translateX(66.66666667%);
-            transform: translateX(66.66666667%);
+    -webkit-transform: translateX(100%);
+       -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+            transform: translateX(100%);
   }
 }
 
@@ -2605,9 +2601,6 @@ form .inputs-description {
   overflow-y: auto;
   overflow-x: hidden;
   background-color: #e5d3e7;
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-     -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   z-index: 10;
 }
 
@@ -2785,9 +2778,6 @@ form .inputs-description {
   background-position: center;
   -moz-background-size: cover;
        background-size: cover;
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-     -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 /* ------------------------------------------------*/
